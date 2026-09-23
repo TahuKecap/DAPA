@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Portofolio.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#projects">Proyek</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="subtitle">Halo, Saya</h2>
+            <h1 class="title">Seorang Pengembang Web <span>Kreatif</span></h1>
+            <p class="description">Membangun pengalaman digital yang indah, fungsional, dan modern.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">Lihat Karya Saya</a>
+                <a href="#contact" class="btn secondary">Hubungi Saya</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="blob-shape"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Saya adalah seorang pengembang web yang bersemangat dengan fokus pada penciptaan antarmuka pengguna
+                    yang menarik dan interaktif. Saya senang mempelajari teknologi baru dan menerapkannya dalam proyek
+                    nyata.</p>
+                <div class="skills">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">UI/UX Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Proyek Terbaru</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-img-placeholder" style="background: linear-gradient(135deg, #FF6B6B, #FF8E53);">
+                </div>
+                <div class="project-info">
+                    <h3>E-Commerce Sederhana</h3>
+                    <p>Platform belanja online dengan fitur keranjang dan checkout.</p>
+                    <a href="#" class="project-link">Lihat Detail →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-placeholder" style="background: linear-gradient(135deg, #4E65FF, #92EFFD);">
+                </div>
+                <div class="project-info">
+                    <h3>Aplikasi Cuaca</h3>
+                    <p>Aplikasi pemantau cuaca real-time menggunakan API publik.</p>
+                    <a href="#" class="project-link">Lihat Detail →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-placeholder" style="background: linear-gradient(135deg, #11998e, #38ef7d);">
+                </div>
+                <div class="project-info">
+                    <h3>Manajemen Tugas</h3>
+                    <p>Aplikasi to-do list dengan sistem drag and drop yang intuitif.</p>
+                    <a href="#" class="project-link">Lihat Detail →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Mari Bekerja Sama</h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <div class="input-group">
+                    <input type="text" id="name" required placeholder="Nama Anda">
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required placeholder="Email Anda">
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="5" required placeholder="Pesan Anda"></textarea>
+                </div>
+                <button type="submit" class="btn primary">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Portofolio Saya. Dibuat dengan cinta.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
